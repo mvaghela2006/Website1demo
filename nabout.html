@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/nabout.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="logo">
+          <img src="images/naturelogo.svg" alt="" />
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="nhome.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="nservice.html">Service</a></li>
+            <li><a href="ncontact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="btn">
+          <button>202-555-0188</button>
+        </div>
+
+        <div class="menulogo">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+
+      <div class="menu_menu">
+        <ul>
+          <li><a href="nhome.html">Home</a></li>
+          <li><a href="nabout.html">About</a></li>
+          <li><a href="nservice.html">Service</a></li>
+          <li><a href="ncontact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <h1 class="head1">about us</h1>
+    </div>
+
+    <div class="content">
+      <p class="paregraph-1">
+        We’re a highly collaborative and supportive team, coming together on
+        every project to ensure our clients get the very best result.
+      </p>
+    </div>
+
+    <div class="image">
+      <div class="img1">
+        <img src="images/na2.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="content_1">
+      <div class="content_2">
+        <div class="box1">
+          <p class="name">Our Mission</p>
+          <p class="paregraph-2">
+            Build the best product that creates the most value for our
+            customers, use business to inspire and implement environmentally
+            friendly solutions.
+          </p>
+        </div>
+
+        <div class="box1">
+          <p class="name">Our Values</p>
+          <p class="paregraph-2">
+            We strive to go above and beyond for our clients no matter the
+            challenge. We aim to deliver our very best work every single day
+            across our services.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main3">
+      <div class="box2">
+        <div class="logo_">
+          <img src="images/quotes.svg" alt="" />
+        </div>
+
+        <div class="paregraph-4">
+          “Love Nature has an amazing team of hard working professionals. It has
+          been a pleasure to meet them.”
+        </div>
+
+        <div class="logo_1">
+          <img src="images/logo_2.png" alt="" />
+        </div>
+        <p class="name1">Emily Davis</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="menu_1">
+        <ul>
+          <li><a href="nhome.html">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="nservice.html">Service</a></li>
+          <li><a href="ncontact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="logo_2">
+        <img src="images/nature-logo-green.svg" alt="" />
+      </div>
+
+      <div class="Nature">
+        <p>Love Nature by Tyler Moore</p>
+      </div>
+    </div>
+
+    <!-----------jQuery------------->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(".fa-bars").click(function () {
+        //alert("test");
+        $(".menu_menu").toggle();
+        $(".head1").toggle();
+      });
+    </script>
+  </body>
+</html>
